@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Cutive&family=Patua+One&family=Viga&display=swap");
+
+.bodybegin {
+  background-color: #6d421f;
+}
+
+.begin {
+  display: flex;
+  height: 100vw;
+  width: 100vw;
+  background-color: green;
+  background-image: url(imagesproject/achtergrondgeschenden.png);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.begin img {
+  width: 200px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: white;
+  font-family: "Viga", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  background-color: #91c99e;
+  text-align: center;
+  padding: 0.2em;
+  border-radius: 2em;
+  margin: 1em;
+  font-family: "Patua One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+body {
+  background-color: #c4e1ca;
+  margin: 0;
+}
+
+header {
+  background-color: #aacc90;
+}
+
+header img {
+  padding-left: 2em;
+}
+
+main p {
+  background-color: #91c99e;
+  background-image: url(imagesproject/achtergrondblaadjes2.png);
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+  font-family: "Cutive", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
+}
+
+main img {
+  height: 15em;
+  width: 24em;
+}
+
+footer {
+  background-color: #d3c0df;
+  width: 100vw;
+  margin-bottom: -2em;
+  margin-top: 3em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 25);
+}
+
+footer nav ul img {
+  height: 2em;
+  width: auto;
+}
+
+footer nav ul {
+  display: flex;
+  margin: 1em;
+  padding: 1em;
+  gap: 4em;
+  justify-content: center;
+  list-style-type: none;
+}
+
+footer nav ul a {
+  text-decoration: none;
+}
+
+section {
+  background-image: url(imagesproject/roos.jpg);
+  display: flex;
+  height: 70vw;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 25);
+}
+
+.sectiontwee {
+  background-image: url(imagesproject/tuingeschneden.png);
+  display: flex;
+  height: 71vw;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+.sectiondrie {
+  background-image: url(imagesproject/tuingang.jpg);
+  display: flex;
+  height: 70vw;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 90vw;
+  max-width: 50em;
+  overflow: hidden;
+  border-radius: 1em;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  animation: slideAnimation 10s infinite;
+}
+
+.slide {
+  min-width: 100%;
+  transition: 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  display: block;
+  border-radius: 1em;
+}
+
+@keyframes slideAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-200%);
+  }
+  75% {
+    transform: translateX(-300%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
